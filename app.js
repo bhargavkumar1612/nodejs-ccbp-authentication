@@ -103,3 +103,5 @@ app.put("/change-password/", async (request, response) => {
     response.send("Invalid current password");
   }
 });
+
+module.exports = app;
